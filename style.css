@@ -1,0 +1,83 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+/* Color Theme */
+:root {
+    --primary: #4CAF50;
+    --dark: #222831;
+    --light: #EEEEEE;
+    --white: #ffffff;
+}
+
+/* Header */
+header {
+    background: var(--dark);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+nav a {
+    padding: 10px 18px;
+    background: var(--primary);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background: white;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+}
+
+/* Section Styling */
+section {
+    background: var(--white);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Project Cards */
+.card {
+    background: var(--light);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: var(--dark);
+    color: white;
+    margin-top: 40px;
+    border-radius: 10px;
+}
